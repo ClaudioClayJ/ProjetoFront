@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Logon from '../src/pages/logon'
-import Dashboard from '../src/pages/dashboard'
+import Rotas from '../src/router'
 function App() {
   return (
     <div className="App">
-    <Dashboard />
+    <Rotas/>
     </div>
   );
 }
