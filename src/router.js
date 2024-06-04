@@ -3,7 +3,6 @@ import {BrowserRouter,Route,Routes} from 'react-router-dom'
 
 import Logon from './pages/logon'
 import Dashboard from './pages/dashboard'
-import Cadastrousuario from './pages/cadastroUsuario'
 
 
 export default function Rotas(){
@@ -12,7 +11,6 @@ export default function Rotas(){
         <Routes>
         <Route path="/" exact element={<Logon />} />
         <Route path="/dashboard"  element={<Dashboard />} />
-        <Route path="/cadastroUsuario"  element={<Cadastrousuario />} />
 
 
         </Routes>
